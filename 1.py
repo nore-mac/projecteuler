@@ -11,7 +11,6 @@ Sum of all multiples of 3 and 5 below 1k = sum of multiples of 3 below 1k + sum 
 import math
 
 def multi_sum(a):
-
     return sum(a*x for x in range(math.ceil(1000/a)))
 
 sumthrees = multi_sum(3)
