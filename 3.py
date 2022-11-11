@@ -24,7 +24,7 @@ for i in range(2, root):
     if counter == 1:
         primes.append(i)
 
-for i in primes:
+for i in reversed(primes):
     if num % i == 0:
         print(i)
         break
