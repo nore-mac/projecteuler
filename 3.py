@@ -30,3 +30,7 @@ for item in reversed(primes):
         break
     else:
         continue
+     
+"""
+This doesn't feel like a particularly elegant solution, but as a first attempt it at least functions and yields the correct answer.
+"""
