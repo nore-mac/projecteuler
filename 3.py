@@ -14,7 +14,7 @@ num = 600851475143
 root = math.ceil(math.sqrt(num))
 primes = [2]
 
-for i in range(2, root):
+for i in range(3, 2, root):
     for j in range(len(primes)):
         if i % primes[j] != 0:
             counter = 1
